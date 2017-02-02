@@ -2,7 +2,7 @@
 
 Name:      mingw-gettext
 Version:   0.19.7
-Release:   1%{?dist}
+Release:   2%{?dist}
 Summary:   GNU libraries and utilities for producing multi-lingual messages
 
 License:   GPLv2+ and LGPLv2+
@@ -186,6 +186,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 0.19.7-2
+- Rebuilt with GCC 5.4.0
+
 * Tue May 03 2016 Kalev Lember <klember@redhat.com> - 0.19.7-1
 - Update to 0.19.7
 
